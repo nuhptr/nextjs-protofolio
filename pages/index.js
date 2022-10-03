@@ -90,9 +90,27 @@ export default function Home() {
           </div>
 
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a
+              href="https://twitter.com/AdiNugrahaPutr2"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <AiFillTwitterCircle />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adikuhaku/"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <AiFillLinkedin />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCyGpJMoH4Hky6legCXq7hdQ"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <AiFillYoutube />
+            </a>
           </div>
 
           <div className="relative mt-10 mx-auto overflow-hidden w-80 h-80 rounded-full bg-gradient-to-b from-teal-500 md:h-96 md:w-96">
