@@ -1,10 +1,6 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 
 import adied from "../public/dev-ed-wave.png";
@@ -54,11 +50,11 @@ export default function Home() {
         {/* Header */}
         <section className="min-h-screen">
           <nav className="pt-10 pb-10 flex justify-between">
-            <h1 className="text-xl font-plusJakartaSans font-medium dark:text-white">
+            <h1 className="text-gray-800 text-xl font-plusJakartaSans font-medium dark:text-white">
               Developed by Adi
             </h1>
             <ul className="flex items-center">
-              <li className="dark:text-white">
+              <li className="dark:text-white text-gray-800">
                 <BsFillMoonStarsFill
                   className="cursor-pointer text-2xl"
                   onClick={() => setDarkMode(!darkMode)}
@@ -80,7 +76,7 @@ export default function Home() {
             <h2 className="text-5xl py-4 text-teal-500 font-medium font-plusJakartaSans md:text-6xl">
               Adi Nugraha Putra
             </h2>
-            <h3 className="text-2xl font-plusJakartaSans md:text-3xl dark:text-white">
+            <h3 className="text-2xl font-plusJakartaSans md:text-3xl text-gray-600 dark:text-white">
               Developer and Designer
             </h3>
             <p className="py-4 leading-8 font-plusJakartaSans text-gray-800 md:text-base max-w-lg mx-auto dark:text-gray-400">
@@ -91,11 +87,11 @@ export default function Home() {
 
           <div className="text-5xl flex justify-center gap-16 text-gray-600">
             <a
-              href="https://twitter.com/AdiNugrahaPutr2"
+              href="https://www.instagram.com/nuhptr/"
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
-              <AiFillTwitterCircle />
+              <AiFillInstagram />
             </a>
             <a
               href="https://www.linkedin.com/in/adikuhaku/"
@@ -127,7 +123,7 @@ export default function Home() {
         {/* Categories */}
         <section>
           <div className="">
-            <h3 className="text-3xl py-1 mt-5 font-plusJakartaSans font-medium dark:text-white">
+            <h3 className="text-3xl pt-5 pb-2 mt-5 font-plusJakartaSans font-medium text-gray-800 dark:text-white">
               Services I offer
             </h3>
             <p className="text-base py-2 leading-8 font-plusJakartaSans text-gray-800 dark:text-gray-200">
@@ -153,10 +149,10 @@ export default function Home() {
                   width={100}
                   height={100}
                 />
-                <h3 className="text-lg font-plusJakartaSans font-medium pt-8 pb-2">
+                <h3 className="text-gray-800 text-lg font-plusJakartaSans font-medium pt-8 pb-2">
                   UI UX Design
                 </h3>
-                <p className="py-2 font-plusJakartaSans">
+                <p className="text-gray-800 py-2 font-plusJakartaSans">
                   Creating UI UX Design for user centered design and user
                   experience design
                 </p>
@@ -177,10 +173,10 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200 dark:shadow-slate-600">
               <div>
                 <Image src={code} alt="Design Image" width={100} height={100} />
-                <h3 className="text-lg font-plusJakartaSans font-medium pt-8 pb-2">
+                <h3 className="text-gray-800 text-lg font-plusJakartaSans font-medium pt-8 pb-2">
                   Code
                 </h3>
-                <p className="py-2 font-plusJakartaSans">
+                <p className="text-gray-800 py-2 font-plusJakartaSans">
                   Do you have an idea for your next great website? Let&apos;s
                   make it a reality.
                 </p>
@@ -207,10 +203,10 @@ export default function Home() {
                   width={100}
                   height={100}
                 />
-                <h3 className="text-lg font-plusJakartaSans font-medium pt-8 pb-2">
+                <h3 className="text-lg font-plusJakartaSans font-medium pt-8 pb-2 text-gray-800">
                   Consultant Design
                 </h3>
-                <p className="py-2 font-plusJakartaSans">
+                <p className="py-2 font-plusJakartaSans text-gray-800">
                   Interested in feedback for your project? I can give you tips
                   and tricks.
                 </p>
@@ -233,7 +229,7 @@ export default function Home() {
         {/* Portofolios */}
         <section>
           <div>
-            <h3 className="text-3xl py-1 mt-5 font-plusJakartaSans font-medium dark:text-white">
+            <h3 className="text-3xl pt-5 pb-2 mt-5 font-plusJakartaSans font-medium text-gray-800 dark:text-white">
               Portofolio
             </h3>
             <p className="text-md py-2 leading-8 font-plusJakartaSans  text-gray-800  dark:text-gray-200">
