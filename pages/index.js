@@ -1,6 +1,10 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillInstagram, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillBehanceCircle,
+} from "react-icons/ai";
 import Image from "next/image";
 
 import adied from "../public/dev-ed-wave.png";
@@ -100,12 +104,13 @@ export default function Home() {
             >
               <AiFillLinkedin />
             </a>
+
             <a
-              href="https://www.youtube.com/channel/UCyGpJMoH4Hky6legCXq7hdQ"
+              href="https://www.behance.net/adinugraha1"
               target={"_blank"}
               rel={"noopener noreferrer"}
             >
-              <AiFillYoutube />
+              <AiFillBehanceCircle />
             </a>
           </div>
 
